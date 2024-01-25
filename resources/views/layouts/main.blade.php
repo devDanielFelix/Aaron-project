@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>@yield('title')</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Kanit&display=swap" rel="stylesheet">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
@@ -17,10 +26,10 @@
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-iten">
-                        <a href="/" class="nav-link">Produtos</a>
+                        <a href="/produtos" class="nav-link">Produtos</a>
                     </li>
                     <li class="nav-iten">
-                        <a href="/" class="nav-link">Contatos</a>
+                        <a href="/contatos" class="nav-link">Contatos</a>
                     </li>
                     <li class="nav-iten">
                         <a href="/" class="nav-link">Entrar</a>

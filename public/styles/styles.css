@@ -1,0 +1,55 @@
+* {
+    font-family: 'Contrail One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#navbar img {
+    width: 100px;
+}
+
+
+#navbar {
+    background-color: #d3b012;
+    padding: 5px 0;
+}
+
+#navbar a {
+    float: left;
+    justify-content: end;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 14px 16px;
+
+}
+
+#navbar a:hover {
+    color: #000000;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #484835;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
