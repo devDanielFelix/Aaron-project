@@ -1,6 +1,7 @@
 * {
     font-family: 'Contrail One', sans-serif;
     font-family: 'Kanit', sans-serif;
+
 }
 
 header {
@@ -15,12 +16,12 @@ body {
 }
 
 #navbar img {
-    width: 100px;
+    width: 50px;
 }
 
 
 #navbar {
-    background-color: #d3b012;
+    background-color: #009991;
     padding: 5px 0;
 }
 
@@ -30,7 +31,6 @@ body {
     font-size: 14px;
     color: #ffffff;
     padding: 14px 16px;
-
 }
 
 #navbar a:hover {
@@ -42,7 +42,7 @@ body {
 
 footer {
     text-align: center;
-    background-color: #484835;
+    background-color: #272727;
     color: #fff;
     padding: 30px;
     position: absolute;
