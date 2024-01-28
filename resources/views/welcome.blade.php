@@ -1,9 +1,13 @@
 @extends ('layouts.main')
 
-@section ('title', 'Psyduck - store')
+@section ('title', '')
 
 @section('content')
 
+<body>
+    <main>
 
+    </main>
+</body>
 
 @endsection

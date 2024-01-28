@@ -9,8 +9,7 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Kanit&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -22,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-ligth">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="img/psyduck.png" alt="Icon">
+                    <img src="img/tubarao.png" alt="Icon">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-iten">
@@ -38,7 +37,13 @@
                         <a href="/" class="nav-link">Cadastrar</a>
                     </li>
                 </ul>
+                <div id="search-container">
+                    <form action="">
+                        <input type="text" id="search" name="search" class="form-control" placeholder="Pesquisar">
+                    </form>
+
                 </div>
+            </div>
         </nav>
     </header>
 
@@ -55,8 +60,8 @@
 
     @yield('contet')
     <footer>
-        <p>Psyduck - Artigos Esportivos &copy 2024</p>
-        <a href="/contato">Entre em contato</a>
+        <p>Shark - Artigos Esportivos &copy 2024</p>
+        <a href="/contatos">Entre em contato</a>
     </footer>
 </body>
 

@@ -1,6 +1,5 @@
 * {
-    font-family: 'Contrail One', sans-serif;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -11,19 +10,17 @@ header {
 
 
 #navbar img {
-    width: 50px;
+    width: 90px;
 }
 
-
 #navbar {
-    background-color: #009991;
-    padding: 5px 0;
+    background-color: #272727;
+    padding: 5px;
 }
 
 #navbar a {
-    float: left;
-    justify-content: end;
-    font-size: 14px;
+    text-align: center;
+    font-size: 15px;
     color: #ffffff;
     padding: 14px 16px;
 }
@@ -32,7 +29,10 @@ header {
     color: #000000;
 }
 
-
+#search-container form {
+    width: 200%;
+    margin: 0 auto;
+}
 
 
 footer {
