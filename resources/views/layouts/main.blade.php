@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-ligth">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="img/tubarao.png" alt="Icon">
+                    <img src="img/psyduck.png" alt="Icon">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-iten">
@@ -60,8 +60,7 @@
 
     @yield('contet')
     <footer>
-        <p>Shark - Artigos Esportivos &copy 2024</p>
-        <a href="/contatos">Entre em contato</a>
+        <p>Psyduck Store - Artigos Esportivos &copy 2024</p>
     </footer>
 </body>
 

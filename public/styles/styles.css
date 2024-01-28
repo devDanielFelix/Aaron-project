@@ -26,7 +26,7 @@ header {
 }
 
 #navbar a:hover {
-    color: #000000;
+    color: #ffc400;
 }
 
 #search-container form {
@@ -37,7 +37,7 @@ header {
 
 footer {
     text-align: center;
-    background-color: #272727;
+    background-color: #3d3d3d;
     color: #fff;
     padding: 30px;
     position: absolute;
