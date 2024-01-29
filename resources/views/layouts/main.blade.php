@@ -41,8 +41,6 @@
                     <form action="">
                         <input type="text" id="search" name="search" class="form-control" placeholder="Pesquisar">
                     </form>
-
-                </div>
             </div>
         </nav>
     </header>
