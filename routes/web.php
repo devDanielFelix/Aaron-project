@@ -24,3 +24,4 @@ Route::get('/contatos', function () {
 Route::get('/produtos', function () {
     return view('/produtos');
 });
+

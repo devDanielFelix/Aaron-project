@@ -5,7 +5,9 @@
 @section('content')
 
 <body>
+    <div id="cards-container" class="row">
 
+    </div>
 </body>
 
 @endsection
