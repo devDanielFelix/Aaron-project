@@ -8,9 +8,9 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-
 #navbar img {
     width: 120px;
+
 }
 
 #navbar {
@@ -19,6 +19,8 @@ header {
 
 #navbar a {
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
     font-size: 15px;
     color: #000000;
     padding: 14px 16px;

@@ -5,9 +5,13 @@
 @section('content')
 
 <body>
-    <div id="cards-container" class="row">
+    <main>
+        <div id="container" class="row">
+            <div class="cards-container">
 
-    </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 @endsection
