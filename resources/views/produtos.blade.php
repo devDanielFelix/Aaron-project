@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title' , 'produtos')
+@section('title' , 'Psyduck Store - Produtos')
 
 @section('content')
 

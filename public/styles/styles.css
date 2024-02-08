@@ -9,8 +9,7 @@ header {
 }
 
 #navbar img {
-    width: 120px;
-
+    width: 50px;
 }
 
 #navbar {
@@ -33,6 +32,20 @@ header {
 #search-container form {
     width: 200%;
     margin: 0 auto;
+}
+
+
+#events-container h5{
+    text-align: center;
+    padding: 30px;
+}
+
+
+#events-container p {
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
 }
 
 

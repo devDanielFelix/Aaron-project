@@ -59,7 +59,7 @@
         </main>
 
         @yield('contet')
-        <footer>
+       <footer>
             <p>Psyduck Store - Artigos Esportivos &copy 2024</p>
         </footer>
 
