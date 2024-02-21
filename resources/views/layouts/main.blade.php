@@ -43,6 +43,7 @@
                         <form action="/" method="GET">
                             <input type="text" id="search" name="search" autocomplete="off" class="form-control" placeholder="Pesquisa Psyduck Store">
                         </form>
+                    </div>
                 </div>
             </nav>
         </header>
