@@ -45,6 +45,7 @@
                         </form>
                     </div>
                 </div>
+
             </nav>
         </header>
 
@@ -61,7 +62,7 @@
 
         @yield('contet')
        <footer>
-            <p>Psyduck Store - Artigos Esportivos &copy 2024</p>
+            <p>Aaron Store - Artigos Esportivos &copy 2024</p>
         </footer>
 
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
