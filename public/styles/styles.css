@@ -3,18 +3,30 @@
 
 }
 
+.row {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
 header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 
 #navbar img {
     width: 50px;
+    padding-left: 10px;
 }
 
 #navbar {
-    padding: 5px;
+    padding: 5px 0;
 }
 
 #navbar a {
@@ -36,26 +48,30 @@ header {
 }
 
 
-#events-container h5{
+#text-container h2 {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
+}
+
+.subtitle {
+    padding: 50px;
 }
 
 
-#events-container p {
+#text-container p {
     text-align: center;
     padding: 10px;
     align-items: center;
     display: flex;
 }
 
-
+/*--rodapé--*/
 footer {
     text-align: center;
-    background-color: #3d3d3d;
+    background-color: #191919;
     color: #fff;
     padding: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }

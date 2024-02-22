@@ -16,6 +16,7 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/cards.css">
 
 </head>
     <body>
@@ -45,7 +46,7 @@
                         </form>
                     </div>
                 </div>
-
+                <ion-icon name="bag-handle-outline"></ion-icon>
             </nav>
         </header>
 

@@ -6,9 +6,9 @@
 
 <body>
     <main>
-        <div id="events-container" class="row">
+        <div id="text-container" class="row">
             <div class="cards-container">
-                <h5>Bem-vindo à Aaron Store - Seu Destino para Camisas Esportivas Premium! </h5>
+                <h2>Bem-vindo à Aaron Store</h2>
                 <p>
                     Explore nossa seleção cuidadosamente escolhida de camisas esportivas de alta qualidade,
                     projetadas para desempenho e estilo. Trabalhamos com marcas renomadas para garantir conforto e durabilidade em cada peça.
@@ -16,17 +16,20 @@
                 </p>
             </div>
         </div>
-        <p>Veja os produtos destaques:</p>
-        <div id="cards-container" class="row">
-        <div class="card col-md-3">
-            <img src="/img/KELCE_62_green.jpg" alt="Jersey Kelce 62 green">
-            <div class="card-body">
-                <p class="card-description">Philadelphia Eagles jersey Kelce 62.</p>
-                <h5 class="card-title">Camisa</h5>
-                <p class="card-price">R$ 299,99</p>
-                <a href="/" class="btn btn-primary">Saber mais</a>
+        <div id="events-container" class="col-md-12">
+            <p class="subtitle">Veja os produtos em destaque:</p>
+            <div id="cards-container" class="row">
+                <div class="card col-md-3">
+                    <img src="/img/KELCE_62_green.jpg" alt="Jersey Kelce 62 green">
+                    <div class="card-body">
+                        <p class="card-description">Philadelphia Eagles Kelce 62</p>
+                        <h6 class="card-title">Jersey Philadelphia Eagles</h6>
+                        <p class="card-price">R$ 299,99</p>
+                        <a href="/" class="btn btn-primary">Saber mais</a>
+                    </div>
+                </div>
             </div>
-        </div>
+
         </div>
     </main>
 </body>
