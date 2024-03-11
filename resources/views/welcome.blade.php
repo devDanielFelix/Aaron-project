@@ -8,7 +8,7 @@
     <main>
         <div id="text-container" class="row">
             <div class="cards-container">
-                <h2>Bem-vindo à Aaron Store</h2>
+                <h1>Bem-vindo à Aaron Store</h1>
                 <p>
                     Explore nossa seleção cuidadosamente escolhida de camisas esportivas de alta qualidade,
                     projetadas para desempenho e estilo. Trabalhamos com marcas renomadas para garantir conforto e durabilidade em cada peça.
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div id="events-container" class="col-md-12">
-            <p class="subtitle">Veja os produtos em destaque:</p>
+            <h2 class="subtitle">Veja os produtos em destaque:</h2>
             <div id="cards-container" class="row">
                 <div class="card col-md-3">
                     <img src="/img/KELCE_62_green.jpg" alt="Jersey Kelce 62 green">
