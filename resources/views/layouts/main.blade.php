@@ -9,7 +9,7 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -26,6 +26,11 @@
                     <a href="/" class="navbar-brand">
                         <img src="img/psyduck.png" alt="Icon">
                     </a>
+                    <div id="search-container">
+                        <form action="/" method="GET">
+                            <input type="text" id="search" name="search" autocomplete="off" class="form-control" placeholder="Pesquisa Psyduck Store">
+                        </form>
+                    </div>
                     <ul class="navbar-nav">
                         <li class="nav-iten">
                             <a href="/produtos" class="nav-link">Produtos</a>
@@ -40,13 +45,7 @@
                             <a href="/" class="nav-link">Cadastrar</a>
                         </li>
                     </ul>
-                    <div id="search-container">
-                        <form action="/" method="GET">
-                            <input type="text" id="search" name="search" autocomplete="off" class="form-control" placeholder="Pesquisa Psyduck Store">
-                        </form>
-                    </div>
                 </div>
-                <ion-icon name="bag-handle-outline"></ion-icon>
             </nav>
         </header>
 
@@ -71,3 +70,9 @@
 
     </body>
 </html>
+
+
+<!--       _
+       .__(.)< (QUACK)
+        \___)
+ ~~~~~~~~~~~~~~~~~~-->

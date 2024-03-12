@@ -1,10 +1,16 @@
 * {
-    font-family: 'Nunito', sans-serif;
-
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .row {
     margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
 }
 
 body {
@@ -27,12 +33,12 @@ header {
 
 #navbar {
     padding: 5px 0;
+    justify-content: space-between;
 }
 
 #navbar a {
     text-align: center;
     display: flex;
-    justify-content: flex-end;
     font-size: 15px;
     color: #000000;
     padding: 14px 16px;
@@ -42,21 +48,17 @@ header {
     color: #ffc400;
 }
 
-#search-container form {
-    width: 100%;
+#search-container {
+    width: 35%;
+    text-align: center;
     margin: 0 auto;
 }
 
-
+/*-- Texto Principal --*/
 #text-container h1 {
     text-align: center;
     padding: 50px;
 }
-
-.subtitle {
-    padding: 50px;
-}
-
 
 #text-container p {
     text-align: center;
@@ -65,15 +67,65 @@ header {
     display: flex;
 }
 
+/*-- Botão de compra --*/
 .btn-primary {
-    color: #ffffff;
+    color: #ffc400;
     background-color: #191919;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
 }
 
 .btn-primary:hover {
     color: #191919;
     background-color: #ffc400;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    justify-content: center;
+}
+
+/*-- Produtos de destaque --*/
+#events-container img {
+    max-height: 1080px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 15%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+.card .card-price {
+    font-size: 12px;
+    color: #757575;
+    padding: 10px;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #757575;
+    padding: 10px;
 }
 
 /*--rodapé--*/
