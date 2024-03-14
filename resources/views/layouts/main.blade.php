@@ -36,9 +36,6 @@
                             <a href="/produtos" class="nav-link">Produtos</a>
                         </li>
                         <li class="nav-iten">
-                            <a href="/contatos" class="nav-link">Contatos</a>
-                        </li>
-                        <li class="nav-iten">
                             <a href="/" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-iten">

@@ -13,17 +13,13 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-route::get('/produtos', [EventController::class,'index']);
+
+
+
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get('/contatos', function () {
-    return view('contato');
-});
 
-Route::get('/produtos', function () {
-    return view('/produtos');
-});
 
