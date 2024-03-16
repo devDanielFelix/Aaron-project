@@ -33,9 +33,6 @@
                     </div>
                     <ul class="navbar-nav">
                         <li class="nav-iten">
-                            <a href="/produtos" class="nav-link">Produtos</a>
-                        </li>
-                        <li class="nav-iten">
                             <a href="/" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-iten">
