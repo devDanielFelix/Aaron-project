@@ -63,7 +63,6 @@ header {
 #text-container p {
     text-align: center;
     padding: 10px;
-    align-items: center;
     display: flex;
 }
 
