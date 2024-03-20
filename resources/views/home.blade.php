@@ -25,7 +25,7 @@
                         <p class="card-description">Philadelphia Eagles Kelce 62 Green</p>
                         <h6 class="card-title">Jersey Philadelphia Eagles</h6>
                         <p class="card-price">R$ 299,99</p>
-                        <a href="/" class="btn btn-primary">Comprar</a>
+                        <a href="/compra" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>

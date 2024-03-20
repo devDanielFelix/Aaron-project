@@ -26,33 +26,12 @@ header {
 }
 
 
-#navbar img {
-    width: 50px;
-    padding-left: 10px;
-}
-
-#navbar {
-    padding: 5px 0;
-    justify-content: space-between;
-}
-
-#navbar a {
-    text-align: center;
-    display: flex;
-    font-size: 15px;
-    color: #000000;
-    padding: 14px 16px;
-}
-
-#navbar a:hover {
-    color: #ffc400;
-}
-
 #search-container {
     width: 35%;
-    text-align: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
+
 
 /*-- Texto Principal --*/
 #text-container h1 {

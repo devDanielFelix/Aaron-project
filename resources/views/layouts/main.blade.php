@@ -21,27 +21,37 @@
 </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-ligth">
-                <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="img/psyduck.png" alt="Icon">
-                    </a>
-                    <div id="search-container">
-                        <form action="/" method="GET">
-                            <input type="text" id="search" name="search" autocomplete="off" class="form-control" placeholder="Pesquisa Psyduck Store">
-                        </form>
-                    </div>
-                    <ul class="navbar-nav">
-                        <li class="nav-iten">
-                            <a href="/" class="nav-link">Entrar</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/">Seu Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Página Inicial</a>
                         </li>
-                        <li class="nav-iten">
-                            <a href="/" class="nav-link">Cadastrar</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
                         </li>
                     </ul>
+
+                    <div id="search-container">
+                        <form class="form-inline ml-auto" action="/" method="GET">
+                            <input type="text" id="search" name="search" autocomplete="off" class="form-control mr-sm-2" placeholder="Pesquisa Psyduck Store">
+                            <button type="submit" class="btn">Search</button>
+                        </form>
                 </div>
             </nav>
+
         </header>
+        </div>
 
         <main>
             <div class="container-fluid">
