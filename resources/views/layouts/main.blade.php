@@ -22,7 +22,11 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">Aaron Store</a>
+            <a class="navbar-brand" href="/">Psyduck Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -43,7 +47,6 @@
                     <form class="form-inline ml-auto" action="/" method="GET">
                         <input type="text" id="search" name="search" autocomplete="off" class="form-control mr-sm-2" placeholder="Pesquisa Psyduck Store">
                     </form>
-
             </div>
         </nav>
 
