@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [SiteController::class, 'index']);
+Route::get('/compra', [SiteController::class, 'show'])->name('Compra.show');
 
 
 

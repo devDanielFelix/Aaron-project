@@ -19,10 +19,11 @@
     border-radius: 15px;
     padding: 0;
     margin: 5px;
+    max-width: 300px;
 }
 
 .card-image {
-
+    max-width: 300px;
 }
 
 .card-description {

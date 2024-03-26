@@ -12,7 +12,6 @@ class SiteController extends Controller
      */
     public function index()
     {
-        $search = request('search');
         return view('Home');
     }
 
@@ -37,7 +36,7 @@ class SiteController extends Controller
      */
     public function show(Site $site)
     {
-        //
+        return view('/events/compra');
     }
 
     /**

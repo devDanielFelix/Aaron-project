@@ -1,16 +1,9 @@
 * {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Nunito', sans-serif;
 }
 
 .row {
-    margin: 0;
-}
-
-.container-fluid {
-    padding: 0;
+    margin: 10px;
 }
 
 body {
@@ -20,45 +13,45 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-bottom: 1px solid #ccc;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-.navbar-brand {
-    padding-left: 20px;
-}
-
-#search-container {
-    width: 35%;
     justify-content: space-between;
-    margin: 0 auto;
+    display: block;
+    padding: 20px;
 }
 
+.nav-image {
+    width: 60px;
+    height: auto;
+    justify-content: start;
+}
 
-/*-- Texto Principal --*/
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
 #text-container h1 {
     text-align: center;
     padding: 50px;
-}
-
-#text-container p {
-    text-align: center;
-    padding: 10px;
-    display: flex;
-}
-
-/*-- Produtos em destaque --*/
-#events-container img {
-    max-height: 1080px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #events-container .subtitle {
     color: #757575;
     margin-bottom: 30px;
     padding: 30px;
+}
+
+#text-container p {
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
 }
 
 /*--rodapé--*/
