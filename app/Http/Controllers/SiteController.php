@@ -12,6 +12,7 @@ class SiteController extends Controller
      */
     public function index()
     {
+        $search = request('search');
         return view('Home');
     }
 
